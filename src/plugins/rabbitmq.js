@@ -31,6 +31,7 @@ export class RabbitMQ {
 
     this.channel = channel
     this.cb = cb
+    
   }
 
   initRMQConnection(){
@@ -87,5 +88,8 @@ export class RabbitMQ {
     this.connectionStatus[0] = false;
     this.channelStatus[0] = false;
     this.client.disconnect();
+    this.ws.close();
+    this.client = null;
+    this.ws = null;
   }
 }
