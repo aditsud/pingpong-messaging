@@ -1,44 +1,37 @@
-# default
+# Tugas UTS Mata Kuliah Desain Aplikasi Interaktif
 
-## Project setup
+## PingPong Messaging dengan Aplikasi WEB
+
+- Berbasis Web
+- Menggunakan Javascript
+- Aplikasi dibangun dengan Frontend VueJS Framework (https://vuejs.org)
+- Koneksi ke Rabbit MQ menggunakan protokol STOMP melalui Web Socket
+
+### Demo Aplikasi secara online
+
+Akses ke http://kuliah-s2.000webhostapp.com/pingpong-messaging/
+
+### Demo Aplikasi secara offline
+
+Requirement: NodeJS
 
 ```
-# yarn
-yarn
+# clone repository ini
+git clone https://github.com/aditsud/pingpong-messaging.git
 
-# npm
+# pindah ke folder repository
+cd pingpong-messagin
+
+# install semua dependencies
 npm install
 
-# pnpm
-pnpm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-# yarn
-yarn dev
-
-# npm
+# jalankan di localhost
 npm run dev
 
-# pnpm
-pnpm dev
 ```
+Lalu akses http://localhost:3000/ melalui browser
 
-### Compiles and minifies for production
 
-```
-# yarn
-yarn build
+### Project Author
 
-# npm
-npm run build
-
-# pnpm
-pnpm build
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
+Aditya Sudyana (23222063)
